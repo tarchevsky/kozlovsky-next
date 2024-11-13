@@ -1,5 +1,5 @@
 import type {Config} from "tailwindcss";
-import {DARK_THEME, MD, SM, THEME, XS, XXL} from "./src/constants/theme.constants";
+import {MD, SM, THEME, XS, XXL} from "./src/constants/theme.constants";
 
 const config: Config = {
     content: [
@@ -72,9 +72,6 @@ const config: Config = {
                         '      )'
                 }
             },
-            [DARK_THEME]: {
-                ...require('daisyui/src/theming/themes')[DARK_THEME],
-            },
         }],
         base: true, // applies background color and foreground color for root element by default
         styled: true, // include daisyUI colors and design decisions for all components
@@ -83,6 +80,5 @@ const config: Config = {
         logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
         themeRoot: ':root' // The element that receives theme color CSS variables
     },
-    darkMode: ['class', `[data-theme=${DARK_THEME}]`]
 };
 export default config;

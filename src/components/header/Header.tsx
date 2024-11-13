@@ -56,9 +56,6 @@ const Header = () => {
 							</Link>
 						</li>
 					))}
-					<li className='justify-center'>
-						<ThemeToggle />
-					</li>
 				</ul>
 			</nav>
 			<Burger toggleMenu={toggleMenu} />
