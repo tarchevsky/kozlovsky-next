@@ -5,7 +5,6 @@ import cn from 'clsx'
 import styles from './Header.module.scss'
 import Burger from '@/components/burger/Burger'
 import { useEffect, useState } from 'react'
-import ThemeToggle from '@/components/themeToggle/ThemeToggle'
 
 interface Props {
 	className?: string
