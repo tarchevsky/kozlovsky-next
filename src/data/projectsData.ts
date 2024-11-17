@@ -65,7 +65,7 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Теогония / Прометей милосердный'
 	},
 	{
-		link: '#',
+		link: '/denim',
 		src: '/main/main-10.png',
 		alt: 'Распятие джинсовка / кастом',
 		description: '',
