@@ -30,7 +30,7 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Офорты / Гравюры'
 	},
 	{
-		link: '#',
+		link: '/silkscreen',
 		src: '/main/main-5.png',
 		alt: 'Шелкография',
 		description: '',
