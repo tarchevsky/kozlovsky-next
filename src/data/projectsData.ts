@@ -79,14 +79,14 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Скульптура'
 	},
 	{
-		link: '#',
+		link: '/exhibitions',
 		src: '/main/main-12.png',
 		alt: 'Выставки',
 		description: '',
 		projectName: 'Выставки'
 	},
 	{
-		link: '#',
+		link: '/contacts',
 		src: '/main/main-13.png',
 		alt: 'Контакты',
 		description: '',
