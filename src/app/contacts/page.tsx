@@ -1,14 +1,20 @@
 import type {Metadata} from "next";
-import Portal from "@/components/portal/Portal";
+import projectsData from "@/data/projectsData";
+import MapContent from "@/components/mapContent/MapContent";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-	title: 'Контакты',
+    title: 'Контакты',
 }
 
 export default function ContactsPage() {
-	return (
-		<Portal>
-			<div className='cont'>Контент</div>
-		</Portal>
-	)
+    return (
+        <>
+            <MapContent projectsData={projectsData}/>
+            <Header />
+            <MapContent projectsData={projectsData} reverse/>
+            <Footer/>
+        </>
+    )
 }
