@@ -72,7 +72,7 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Распятие джинсовка / кастом'
 	},
 	{
-		link: '#',
+		link: '/sculpture',
 		src: '/main/main-11.png',
 		alt: 'Скульптура',
 		description: '',
