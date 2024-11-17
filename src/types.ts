@@ -22,6 +22,15 @@ export interface HtagProps {
     className?: string
 }
 
+// Layout.tsx + FadeIn.tsx
+
+export interface LayoutProps {
+    children: ReactNode
+    className?: string
+    delay?: number
+    style?: string
+}
+
 // Button.tsx
 
 export interface ButtonProps {
