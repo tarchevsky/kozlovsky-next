@@ -58,7 +58,7 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Гончие псы / Офорт / Шелкография'
 	},
 	{
-		link: '#',
+		link: '/theogony',
 		src: '/main/main-9.png',
 		alt: 'Теогония / Прометей милосердный',
 		description: '',
