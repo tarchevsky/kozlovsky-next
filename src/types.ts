@@ -94,3 +94,22 @@ export interface BurgerProps {
 export interface ThemeToggleProps {
     className?: string
 }
+
+// imgText.tsx
+
+export interface ImgTextProps {
+    link?: string
+    src: string
+    alt: string
+    className?: string
+    description?: string
+    projectName: string
+    reverse?: boolean
+}
+
+// mapContent.tsx
+
+export interface MapContentProps {
+    projectsData: ImgTextProps[] // или можно projectsData: Array<...>;
+    reverse?: boolean
+}
