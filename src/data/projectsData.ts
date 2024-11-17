@@ -16,14 +16,14 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Vedi / Одежда'
 	},
 	{
-		link: '#',
+		link: '/antibammes',
 		src: '/main/main-3.png',
 		alt: 'AntiBammes / АНАТОМИЯ Анатомия',
 		description: '',
 		projectName: 'AntiBammes / АНАТОМИЯ Анатомия'
 	},
 	{
-		link: '#',
+		link: '/etchings',
 		src: '/main/main-4.png',
 		alt: 'Офорты / Гравюры',
 		description: '',
