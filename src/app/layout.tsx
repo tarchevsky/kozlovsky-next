@@ -1,31 +1,18 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
-import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
-import {SITE_NAME} from "@/constants/site.constants";
-import {ReactNode} from "react";
+'use client'
 
-export const metadata: Metadata = {
-    title: {
-        default: SITE_NAME,
-        template: `%s | ${SITE_NAME}`,
-    },
-}
+import {ReactNode} from "react"
+import './globals.css'
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: ReactNode;
+                                       children,
+                                   }: Readonly<{
+    children: ReactNode;
 }>) {
-  return (
-    <html lang="ru">
-      <body>
-        <Header />
-        {children}
-        <ScrollToTop />
-        <Footer />
-      </body>
-    </html>
-  );
+    return (
+        <html lang="ru">
+            <body className='relative' style={{ background: 'url(/pattern.svg) center center/cover repeat' }}>
+                {children}
+            </body>
+        </html>
+    )
 }

@@ -63,6 +63,7 @@ const config: Config = {
         themes: [{
             [THEME]: {
                 ...require('daisyui/src/theming/themes')[THEME],
+                backgroundColor: '#202020',
                 '--glass-blur': '3px',
                 '.glass': {
                     'background-image':

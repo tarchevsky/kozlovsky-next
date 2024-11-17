@@ -1,8 +1,9 @@
-import Image from 'next/image'
 import type {Metadata} from "next";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-	title: 'Главная',
+    title: 'Главная',
 }
 
 export default function Home() {
@@ -55,4 +56,11 @@ export default function Home() {
 			</main>
 		</div>
 	)
+    return (
+        <>
+            <Header className='relative' />
+            <Footer/>
+        </>
+
+    )
 }
