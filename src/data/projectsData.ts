@@ -37,7 +37,7 @@ const projectsData: ImgTextProps[] = [
 		projectName: 'Шелкография'
 	},
 	{
-		link: '#',
+		link: '/photo',
 		src: '/main/main-6.png',
 		alt: 'Фото',
 		description: '',
