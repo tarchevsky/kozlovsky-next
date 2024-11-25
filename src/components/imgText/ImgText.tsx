@@ -34,7 +34,7 @@ const ImgText = ({
                                 height={650}
                                 className={cn(
                                     className,
-                                    'w-full transition ease-in brightness-50 xl:brightness-100 xl:group-hover:brightness-50'
+                                    'w-full'
                                 )}
                             />
                             {description && (
@@ -66,7 +66,7 @@ const ImgText = ({
                             height={650}
                             className={cn(
                                 className,
-                                'w-full transition ease-in brightness-50 xl:brightness-100 xl:group-hover:brightness-50'
+                                'w-full'
                             )}
                         />
                         {description && (

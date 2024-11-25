@@ -7,6 +7,7 @@ import vediData from "@/data/vediData";
 
 export const metadata: Metadata = {
     title: 'Проект Vedi',
+    description: 'Проект Vedi описание проекта',
 }
 
 export default function
