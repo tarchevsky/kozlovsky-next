@@ -8,7 +8,12 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                'xs': '375px', // или любое другое значение, которое вам нужно
+                's': '390px',  // аналогично
+            },
+        },
     },
     plugins: [
         require('daisyui'),

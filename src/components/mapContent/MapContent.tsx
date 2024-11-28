@@ -1,7 +1,7 @@
 'use client'
 
 import ImgText from '@/components/imgText/ImgText'
-import {MapContentProps} from '@/types'
+import { MapContentProps } from '@/types'
 
 const MapContent = ({ projectsData, reverse }: MapContentProps) => {
     return (
@@ -11,7 +11,7 @@ const MapContent = ({ projectsData, reverse }: MapContentProps) => {
                     key={rowIndex}
                     style={{
                         display: 'grid',
-                        gridTemplateColumns: `repeat(${row.columns}, 1fr)`,
+                        gridTemplateColumns: row.columnWidths ? row.columnWidths.join(' ') : `repeat(${row.columns}, 1fr)`,
                         gap: '16px',
                     }}
                 >
@@ -25,6 +25,7 @@ const MapContent = ({ projectsData, reverse }: MapContentProps) => {
                             projectName={project.projectName}
                             className='object-cover h-full'
                             reverse={reverse}
+                            priority={project.priority}
                         />
                     ))}
                 </div>

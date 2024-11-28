@@ -114,12 +114,14 @@ export interface ImgTextProps {
     description?: string
     projectName?: string
     reverse?: boolean
+    priority?: boolean
 }
 
 // mapContent.tsx
 
 export interface RowData {
     columns: number;
+    columnWidths?: string[]; // Массив с шириной для каждой колонки
     items: ImgTextProps[];
 }
 

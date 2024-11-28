@@ -10,7 +10,8 @@ const ImgText = ({
                      className,
                      description,
                      projectName,
-                     reverse
+                     reverse,
+                     priority
                  }: ImgTextProps) => {
     return (
         <>
@@ -18,9 +19,9 @@ const ImgText = ({
                 <Link href={link || '/'} className='block relative w-full group'>
                     {reverse ? (
                         <div
-                            className={'grid grid-rows-[auto_minmax(100px,1fr)] md:grid-rows-[auto_minmax(130px,1fr)] items-center h-max'}
+                            className={'grid grid-rows-[auto_minmax(100px,1fr)] md:grid-rows-[auto_minmax(130px,1fr)] items-center'}
                         >
-                            <div className='h-full'>
+                            <div className='h-[50svh] xs:h-[35svh] sm:h-[110svh] md:h-[120svh]'>
                                 <Image
                                     src={src}
                                     alt={alt}
@@ -28,8 +29,9 @@ const ImgText = ({
                                     height={840}
                                     className={cn(
                                         className,
-                                        'w-full min-h-[50svh] max-h-[115svh]'
+                                        'w-full object-cover'
                                     )}
+                                    priority={priority}
                                 />
                                 {description && (
                                     <p
@@ -67,6 +69,7 @@ const ImgText = ({
                                         className,
                                         'w-full'
                                     )}
+                                    priority={priority}
                                 />
                                 {description && (
                                     <p
@@ -100,6 +103,7 @@ const ImgText = ({
                                 className,
                                 'w-full'
                             )}
+                            priority={priority}
                         />
                         {description && (
                             <p

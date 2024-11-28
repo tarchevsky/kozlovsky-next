@@ -9,7 +9,8 @@ const projectsData: RowData[] = [
 				src: '/main/main-1.png',
 				alt: 'Гильдия.Москва / Студия дизайна',
 				description: '',
-				projectName: 'Гильдия.Москва <br/>/ Студия дизайна'
+				projectName: 'Гильдия.Москва <br/>/ Студия дизайна',
+				priority: true
 			}
 		]
 	},
@@ -21,7 +22,8 @@ const projectsData: RowData[] = [
 				src: '/main/main-2.png',
 				alt: 'Vedi / Одежда',
 				description: '',
-				projectName: 'Vedi / Одежда'
+				projectName: 'Vedi / Одежда',
+				priority: true
 			}
 		]
 	},
