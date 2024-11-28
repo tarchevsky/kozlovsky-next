@@ -8,7 +8,8 @@ const exhibitionsData: RowData[] = [
                 src: '/exhibitions/1.png',
                 alt: 'Выставки',
                 description: '',
-                projectName: 'Выставки'
+                projectName: 'Выставки',
+                priority: true
             }
         ]
     },

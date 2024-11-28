@@ -8,7 +8,8 @@ const designData: RowData[] = [
                 src: '/design/1.png',
                 alt: 'Дизайн',
                 description: '',
-                projectName: 'Дизайн'
+                projectName: 'Дизайн',
+                priority: true
             }
         ]
     },

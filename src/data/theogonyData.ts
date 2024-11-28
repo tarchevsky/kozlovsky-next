@@ -8,7 +8,8 @@ const theogonyData: RowData[] = [
                 src: '/theogony/1.png',
                 alt: 'ТЕОГОНИЯ / ПРОМЕТЕЙ МИЛОСЕРДНЫЙ',
                 description: '',
-                projectName: 'ТЕОГОНИЯ / ПРОМЕТЕЙ МИЛОСЕРДНЫЙ'
+                projectName: 'ТЕОГОНИЯ / ПРОМЕТЕЙ МИЛОСЕРДНЫЙ',
+                priority: true
             }
         ]
     },

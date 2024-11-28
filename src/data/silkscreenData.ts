@@ -8,7 +8,8 @@ const silkscreenData: RowData[] = [
                 src: '/silkscreen/1.png',
                 alt: 'ШЕЛКОГРАФИЯ',
                 description: '',
-                projectName: 'ШЕЛКОГРАФИЯ'
+                projectName: 'ШЕЛКОГРАФИЯ',
+                priority: true
             }
         ]
     },

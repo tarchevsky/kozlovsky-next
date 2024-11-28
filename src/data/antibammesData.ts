@@ -8,7 +8,8 @@ const antibammesData: RowData[] = [
 				src: '/antibammes/1.png',
 				alt: 'Vedi / Одежда',
 				description: '',
-				projectName: 'ANTIBAMMES <br/>/ АНАТОМИЯ'
+				projectName: 'ANTIBAMMES <br/>/ АНАТОМИЯ',
+				priority: true
 			},
 		]
 	},

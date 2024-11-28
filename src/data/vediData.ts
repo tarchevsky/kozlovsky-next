@@ -8,7 +8,8 @@ const vediData: RowData[] = [
 				src: '/vedi/1.png',
 				alt: 'Vedi / Одежда',
 				description: '',
-				projectName: 'Vedi / <br/>Одежда'
+				projectName: 'Vedi / <br/>Одежда',
+				priority: true
 			}
 		]
 	},

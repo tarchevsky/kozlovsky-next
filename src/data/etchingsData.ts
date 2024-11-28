@@ -8,7 +8,8 @@ const etchingsData: RowData[] = [
                 src: '/etchings/1.png',
                 alt: 'ОФОРТЫ / ГРАВЮРЫ',
                 description: '',
-                projectName: 'ОФОРТЫ <br/>/ ГРАВЮРЫ'
+                projectName: 'ОФОРТЫ <br/>/ ГРАВЮРЫ',
+                priority: true
             }
         ]
     },

@@ -8,7 +8,8 @@ const photoData: RowData[] = [
                 src: '/photo/1.png',
                 alt: 'Фото',
                 description: '',
-                projectName: 'Фото'
+                projectName: 'Фото',
+                priority: true
             }
         ]
     },

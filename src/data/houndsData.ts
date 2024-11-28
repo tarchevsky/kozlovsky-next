@@ -8,7 +8,8 @@ const houndsData: RowData[] = [
                 src: '/hounds/1.png',
                 alt: 'ГОНЧИЕ ПСЫ / ОФОРТ / ШЕЛКОГРАФИЯ',
                 description: '',
-                projectName: 'ГОНЧИЕ ПСЫ / ОФОРТ / ШЕЛКОГРАФИЯ'
+                projectName: 'ГОНЧИЕ ПСЫ / ОФОРТ / ШЕЛКОГРАФИЯ',
+                priority: true
             }
         ]
     },
