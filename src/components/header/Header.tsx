@@ -39,7 +39,7 @@ const Header = ({className}: Props) => {
 			<nav
 				className={cn(
 					{ [styles.active]: isMenuActive },
-					'fixed z-10 top-28 md:top-16 left-4 md:right-44 md:left-auto opacity-0 transition-all duration-300 ease-out'
+					'fixed z-10 top-[100px] md:top-16 right-0 md:right-44 md:left-auto opacity-0 transition-all duration-300 ease-out'
 				)}
 			>
 				<ul
