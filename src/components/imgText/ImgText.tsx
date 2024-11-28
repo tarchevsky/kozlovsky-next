@@ -49,7 +49,7 @@ const ImgText = ({
                         </div>
                     ) : (
                         <div
-                            className={'grid grid-rows-[auto_minmax(100px,1fr)] md:grid-rows-[minmax(130px,1fr)_auto] items-center'}
+                            className={'grid grid-rows-[minmax(100px,1fr)_auto] md:grid-rows-[minmax(130px,1fr)_auto] items-center'}
                         >
                             {projectName ? (
                                 <h3
@@ -82,7 +82,7 @@ const ImgText = ({
                 </Link>
             ) : (
                 <div
-                    className={'grid grid-rows-[auto_minmax(100px,1fr)] md:grid-rows-[minmax(130px,1fr)_auto] items-center'}
+                    className={'grid grid-rows-[minmax(100px,1fr)_auto] md:grid-rows-[minmax(130px,1fr)_auto] items-center'}
                 >
                     {projectName ? (
                         <h3
