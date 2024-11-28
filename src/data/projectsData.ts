@@ -31,9 +31,9 @@ const projectsData: RowData[] = [
 			{
 				link: '/antibammes',
 				src: '/main/main-3.png',
-				alt: 'AntiBammes / АНАТОМИЯ Анатомия',
+				alt: 'AntiBammes / АНАТОМИЯ',
 				description: '',
-				projectName: 'AntiBammes / АНАТОМИЯ Анатомия'
+				projectName: 'AntiBammes / АНАТОМИЯ'
 			}
 		]
 	},
