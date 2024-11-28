@@ -112,13 +112,18 @@ export interface ImgTextProps {
     alt: string
     className?: string
     description?: string
-    projectName: string
+    projectName?: string
     reverse?: boolean
 }
 
 // mapContent.tsx
 
+export interface RowData {
+    columns: number;
+    items: ImgTextProps[];
+}
+
 export interface MapContentProps {
-    projectsData: ImgTextProps[] // или можно projectsData: Array<...>;
     reverse?: boolean
+    projectsData: RowData[] // или можно projectsData: Array<...>;
 }
