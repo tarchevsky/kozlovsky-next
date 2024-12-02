@@ -22,7 +22,7 @@ export default function ContactsPage() {
             <div className='cont flex flex-col'>
                 <Link href="https://wa.me/89031700586" target="_blank" rel="noopener noreferrer"  className="link">/ WHATSAPP /</Link>
                 <Link href="https://t.me/vasiliy_kozlovskiy" target="_blank" rel="noopener noreferrer" className="link">/ TELEGRAM /</Link>
-                <Link href="https://t.me/vasiliy_kozlovskiy" target="_blank" rel="noopener noreferrer" className="link">/ VK/</Link>
+                <Link href="https://vk.com/vasiliy.kozlovskiy" target="_blank" rel="noopener noreferrer" className="link">/ VK/</Link>
                 <Link href="https://www.instagram.com/kozlovskiy.vasiliy/profilecard/?igsh=empzcGU1cnh3Y3Ix" target="_blank" rel="noopener noreferrer" className="link">/ INSTAGRAM /</Link>
             </div>
             <Header/>
