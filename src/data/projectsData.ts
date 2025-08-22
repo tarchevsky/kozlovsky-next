@@ -1,4 +1,4 @@
-import {RowData} from '@/types'
+import { RowData } from '@/types'
 
 const projectsData: RowData[] = [
 	{
@@ -8,11 +8,13 @@ const projectsData: RowData[] = [
 				link: 'https://guild.moscow',
 				src: '/main/main-1.png',
 				alt: 'Гильдия.Москва / Студия дизайна',
+				blank: true,
 				description: '',
 				projectName: 'Гильдия.Москва <br/>/ Студия дизайна',
-				priority: true
-			}
-		]
+				priority: true,
+				quality: 100,
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -23,9 +25,9 @@ const projectsData: RowData[] = [
 				alt: 'Vedi / Одежда',
 				description: '',
 				projectName: 'Vedi / Одежда',
-				priority: true
-			}
-		]
+				priority: true,
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -35,9 +37,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-3.png',
 				alt: 'AntiBammes / АНАТОМИЯ',
 				description: '',
-				projectName: 'AntiBammes / АНАТОМИЯ'
-			}
-		]
+				projectName: 'AntiBammes / АНАТОМИЯ',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -47,9 +49,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-4.png',
 				alt: 'Офорты / Гравюры',
 				description: '',
-				projectName: 'Офорты / Гравюры'
-			}
-		]
+				projectName: 'Офорты / Гравюры',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -59,9 +61,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-5.png',
 				alt: 'Шелкография',
 				description: '',
-				projectName: 'Шелкография'
-			}
-		]
+				projectName: 'Шелкография',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -71,9 +73,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-6.png',
 				alt: 'Фото',
 				description: '',
-				projectName: 'Фото'
-			}
-		]
+				projectName: 'Фото',
+			},
+		],
 	},
 	{
 		columns: 2,
@@ -83,16 +85,16 @@ const projectsData: RowData[] = [
 				src: '/main/main-7-1.png',
 				alt: 'Дизайн',
 				description: '',
-				projectName: 'Дизайн'
+				projectName: 'Дизайн',
 			},
 			{
 				link: '/design',
 				src: '/main/main-7-2.png',
 				alt: 'Дизайн',
 				description: '',
-				projectName: ''
+				projectName: '',
 			},
-		]
+		],
 	},
 	{
 		columns: 1,
@@ -102,9 +104,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-8.png',
 				alt: 'Гончие псы / Офорт / Шелкография',
 				description: '',
-				projectName: 'Гончие псы / Офорт / Шелкография'
-			}
-		]
+				projectName: 'Гончие псы / Офорт / Шелкография',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -114,9 +116,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-9.png',
 				alt: 'Теогония / Прометей милосердный',
 				description: '',
-				projectName: 'Теогония / Прометей милосердный'
-			}
-		]
+				projectName: 'Теогония / Прометей милосердный',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -126,22 +128,21 @@ const projectsData: RowData[] = [
 				src: '/main/main-10.png',
 				alt: 'Распятие джинсовка / кастом',
 				description: '',
-				projectName: 'Распятие джинсовка / кастом'
-			}
-		]
+				projectName: 'Распятие джинсовка / кастом',
+			},
+		],
 	},
 	{
 		columns: 1,
 		items: [
-
 			{
 				link: '/sculpture',
 				src: '/main/main-11.png',
 				alt: 'Скульптура',
 				description: '',
-				projectName: 'Скульптура'
-			}
-		]
+				projectName: 'Скульптура',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -151,9 +152,9 @@ const projectsData: RowData[] = [
 				src: '/main/main-12.png',
 				alt: 'Выставки',
 				description: '',
-				projectName: 'Выставки'
-			}
-		]
+				projectName: 'Выставки',
+			},
+		],
 	},
 	{
 		columns: 1,
@@ -163,10 +164,10 @@ const projectsData: RowData[] = [
 				src: '/main/main-13.png',
 				alt: 'Контакты',
 				description: '',
-				projectName: 'Контакты'
-			}
-		]
-	}
+				projectName: 'Контакты',
+			},
+		],
+	},
 ]
 
 export default projectsData
